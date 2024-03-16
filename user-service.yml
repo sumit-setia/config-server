@@ -19,9 +19,5 @@ spring:
   cloud:
     application:
       name: user-service
-otel:
-  tracer:
-    exporter: zipkin
-  exporter:
-    zipkin:
-      endpoint: http://zipkin-server:9411/api/v2/spans
+  zipkin:
+   base-url: http://zipkin-server:9411
