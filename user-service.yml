@@ -21,3 +21,9 @@ spring:
       name: user-service
   zipkin:
    base-url: http://zipkin-server:9411
+management:
+  metrics:
+    export:
+      zipkin:
+        enabled: true
+
