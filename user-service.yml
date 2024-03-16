@@ -16,3 +16,6 @@ spring:
     username: root
     password: Sumi1512@
     driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    application:
+      name: user-service
